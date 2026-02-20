@@ -339,7 +339,7 @@ st.plotly_chart(fig_line_cp, use_container_width=True, config=config)
 # Feature Importance Graph based on Random Forest Classifier Model:-
 
 st.markdown("---")
-st.subheader("💡 Feature Importance (Random Forest)")
+st.subheader("💡 Feature Importance")
 try:
     importances = model.feature_importances_
     feat_df = pd.DataFrame({
